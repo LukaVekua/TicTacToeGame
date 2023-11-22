@@ -1,0 +1,29 @@
+.container{
+    width:300px;
+    height:300px;
+    border:2px solid black;
+    margin:0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rows{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blocks{
+    width:100px;
+    height:100px;
+    border:1px solid black;
+    background:lightcyan;
+    font-size:36px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
